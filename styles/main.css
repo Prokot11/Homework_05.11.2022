@@ -1,0 +1,40 @@
+div {
+  margin: 2rem 0;
+  background: lavender;
+}
+
+p {
+  margin: .4rem 0 1.2rem 0;
+  background: yellow;
+}
+
+h2{
+  background-color: fc3232;
+  padding: 50px 20px 20px 50px;
+}
+
+h3{
+  background-color: 30D5C8;
+  padding: 90px 20px 20px 90px;
+}
+
+style {
+  display: block;
+  border: 1px dashed black;
+}
+
+.content-box {
+  box-sizing: content-box;
+  /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+     Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+     Content box width: 160px
+     Content box height: 80px */
+}
+
+.border-box {
+  box-sizing: border-box;
+  /* Total width: 160px
+     Total height: 80px
+     Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
+     Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+}
